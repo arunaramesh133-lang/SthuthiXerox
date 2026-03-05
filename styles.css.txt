@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 10px;
+    color: #222;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #2a7ae2;
+}
+
+.services h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
+.services ul {
+    list-style: disc inside;
+}
+
+.payment {
+    background-color: #d1e7ff;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.payment button {
+    background-color: #2a7ae2;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment button:hover {
+    background-color: #1558b0;
+}
+
+iframe {
+    border: none;
+    border-radius: 8px;
+}

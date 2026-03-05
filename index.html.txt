@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sthuthi Xerox</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+
+.products {
+margin:30px 0;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+}
+
+.product{
+border:1px solid #ddd;
+padding:15px;
+border-radius:8px;
+background:#fafafa;
+text-align:center;
+}
+
+.product:hover{
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Sthuthi Xerox</h1>
+
+<p>
+Address: No 1, 6th Street, Gurusamy Nagar,  
+Mothilal Nehru Street, Pulianthope, Chennai-600012
+</p>
+
+<p>
+Working Hours: 6:30 AM – 10:30 PM (Monday to Saturday)
+</p>
+
+</header>
+
+
+<section>
+
+<h2>Welcome</h2>
+
+<p>
+Welcome to Sthuthi Xerox & Stationery.  
+We provide fast and affordable Xerox, lamination,
+spiral binding, printouts and stationery items
+for students and offices.
+</p>
+
+</section>
+
+
+
+<section class="services">
+
+<h2>Services</h2>
+
+<h3>Visit the Shop</h3>
+
+<ul>
+<li>Xerox</li>
+<li>Lamination</li>
+<li>Binding</li>
+</ul>
+
+<h3>Order Online</h3>
+
+<ul>
+<li><a href="#stationery-form">Stationery Order</a></li>
+<li><a href="#printout-form">Printout Order</a></li>
+</ul>
+
+</section>
+
+
+
+<section class="products">
+
+<h2>Popular Stationery Items</h2>
+
+<div class="product-grid">
+
+<div class="product">
+<h3>Notebook</h3>
+<p>Price: ₹45</p>
+</div>
+
+<div class="product">
+<h3>Pen</h3>
+<p>Price: ₹10</p>
+</div>
+
+<div class="product">
+<h3>A4 Sheets</h3>
+<p>Price: ₹2 per page</p>
+</div>
+
+<div class="product">
+<h3>File Folder</h3>
+<p>Price: ₹20</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="stationery-form">
+
+<h2>Stationery Order</h2>
+
+<iframe
+src="https://docs.google.com/forms/d/e/1FAIpQLSfyTLJKtfRKWBt3dyxUhHDXi7-eY9Q4hmikVrHWdz6XSWZ21g/viewform?embedded=true"
+width="100%"
+height="800">
+
+</iframe>
+
+</section>
+
+
+
+<section id="printout-form">
+
+<h2>Printout Order</h2>
+
+<iframe
+src="https://docs.google.com/forms/d/e/1FAIpQLSeppItFkg13JjWhciYV4ZKnjBqqwAedzAL8FOwB4_VBkOf_Og/viewform?embedded=true"
+width="100%"
+height="800">
+
+</iframe>
+
+</section>
+
+
+
+<section class="payment">
+
+<h2>Pay Now</h2>
+
+<p>Use UPI ID: <strong>cutesthuthi-4@okaxis</strong></p>
+
+<button onclick="payNow()">Pay with UPI</button>
+
+</section>
+
+
+
+<section>
+
+<h2>Find Us</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Pulianthope,Chennai&output=embed"
+width="100%"
+height="350">
+
+</iframe>
+
+</section>
+
+
+
+<section id="live-order-table">
+
+<h2>Live Order Table</h2>
+
+<iframe
+src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPy9Mn_5Tl9Cir8nUSRke9id8ROzkofze-BEa6hf-_k3e1ukEwx0zZGKckCtsNbhl_vkhrkySXaucL/pubhtml?widget=true&headers=false"
+width="100%"
+height="600"
+style="border:1px solid #ccc">
+
+</iframe>
+
+</section>
+
+
+
+<footer>
+
+<p>Sthuthi Xerox & Stationery</p>
+
+<p>Pulianthope, Chennai</p>
+
+</footer>
+
+
+
+<script>
+
+function payNow(){
+
+window.location.href="upi://pay?pa=cutesthuthi-4@okaxis&pn=Sthuthi Xerox";
+
+}
+
+</script>
+
+</body>
+</html>
